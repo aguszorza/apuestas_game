@@ -1,0 +1,16 @@
+[project]
+name = "apuestas"
+version = "0.0.1"
+description = "A simple game"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "websockets"
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
